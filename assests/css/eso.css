@@ -170,7 +170,7 @@ header .navbar ul li a:hover{
     color: rgb(69, 123, 240);
     font-size: 2rem;
   }
-  header .navbar ul li a.active,
+
   header .navbar ul li a:hover{
     padding: 1rem;
     color: rgb(236, 102, 25);
