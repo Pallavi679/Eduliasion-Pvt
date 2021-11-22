@@ -482,30 +482,18 @@ header .navbar ul li a:hover{
 }
 .olympiads .box-container{
   
-  /* display: flex;
-  flex-wrap: wrap;
-  /* justify-content: flex-start; */
-  /* align-items: center; */
   display: flex;
   flex-wrap: wrap;
   gap:1.5rem;
   margin: 2rem;
-  /* flex-dir/ection: column;  */
 }
 .olympiads .box-container .box{
-  display: flex;
-  /* flex-direction: row; */
-  width: 100%;
-  /* height: 50%; */
+  flex:4 5 50rem;
   border-radius: .5rem;
-  box-shadow: .2rem .5rem 1rem rgba(0, 0, 0, .2);
-  text-align: center;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
   position: relative;
-  margin-top: 2rem;
-  overflow: hidden;
-  transition: .3s;
-  background: rgb(252, 252, 252);
-  margin-left: 15px;
+  overflow:hidden;
+  height:30rem;
 }
 .olympiads-button{
   width: 40%;
@@ -686,6 +674,13 @@ header .navbar ul li a:hover{
 .achievements .heading span{
   margin-top: -100px;
   color: #0084cb;
+}
+.achievements .paraheading{
+  list-style: none;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  text-align: center;
 }
 .achievements_img{
   position: relative;
